@@ -12,7 +12,7 @@ st.write("""
          Através dessa análise, conseguimos segmentar o público em bolhas de interesse, permitindo a criação de campanhas personalizadas e mais assertivas, com base nos padrões de comportamento e preferências de cada grupo.
          """)
 
-up_file = st.file_uploader('Escolha um arquivo CSV para realizar a previsão',type='csv')
+up_file = st.file_uploader('C:\Users\antonio.moreira\OneDrive - Programmers Beyond IT\Área de Trabalho\VsCode\novas_entradas.csv',type='csv')
 
 def processar_prever (df):
     encoded_sexo = encoder.transform(df[['sexo']])
